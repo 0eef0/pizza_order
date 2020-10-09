@@ -1,0 +1,33 @@
+body{
+    background-image: url("../images/background.png");
+}
+header{
+    background-color: #dba24a;
+    position: sticky; 
+    top: 0px;
+}
+td h1, h3, legend h4,td{
+    font-family: Apple Chancery, cursive;
+    color: #ce0000;
+}
+li{
+    color: #e12301;
+}
+td h1{
+    margin-bottom: 0px;
+}
+article{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #fffa8a;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+article, aside, header{
+    border: black solid 2px;
+}
